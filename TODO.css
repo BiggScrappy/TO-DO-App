@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+h1 {
+    text-align: center;
+}
+
+#tasks {
+    list-style: none;
+    padding: 0;
+}
+
+#tasks li {
+    margin: 10px 0;
+}
+
+#new-task {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#add-task {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0095ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
